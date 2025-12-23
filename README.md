@@ -36,20 +36,18 @@
 - **Классификация:** бинарная цель — жаркий день (1), если `TemperatureAvg C` > медианы, иначе 0.
 
 ## 3. Структура репозитория
-
-- `notebooks/`  
-  - `project.ipynb` — основной Jupyter Notebook с кодом и графиками.
-- `data/`  
-  - `Indian_Climate_Dataset_2024_2025.csv` — исходный датасет.
+ 
+- `Exam ML.ipynb` — основной Jupyter Notebook с кодом и графиками.
+- `Indian_Climate_Dataset_2024_2025.csv` — исходный датасет.
 - `requirements.txt` — список зависимостей для установки окружения.
 - `README.md` — текущий файл с описанием проекта.
-- `report.pdf` — краткий отчёт (до 6 страниц) с формулами и результатами.
+- `Отчет.pdf` — краткий отчёт (до 6 страниц) с формулами и результатами.
 
 ## 4. Запуск локально
 
 ### 4.1. Клонирование репозитория
-git clone https://github.com/<your_username>/<your_repo>.git
-cd <your_repo>
+git clone https://github.com/DmitriiR233/Exam-DataScince.git
+cd Exam-DataScince
 
 
 ### 4.2. Создание виртуального окружения и установка зависимостей
@@ -70,7 +68,7 @@ pip install -r requirements.txt
 ### 4.3. Запуск Jupyter Notebook
 
 
-Далее открыть файл `notebooks/project.ipynb` и последовательно выполнить все ячейки сверху вниз.
+Далее открыть файл `project.ipynb` и последовательно выполнить все ячейки сверху вниз.
 
 ## 5. Запуск в Google Colab
 
